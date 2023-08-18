@@ -1,0 +1,16 @@
+git config --global user.name "kiqiss123"
+git config --global user.email "arfqiss@gmail.com"
+git config --global --list
+
+git clone https://github.com/kiqiss123/github-demo.git
+
+
+buat file
+echo "test git quick start demo" >> start.txt
+
+ls = menampilkan semua file dalam folder aktif
+cat start.txt = melihat isi file di start.txt
+git status 
+git add "namafile.ext" 
+git commit -m "Adding start text file"
+git push origin main
